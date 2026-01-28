@@ -2,13 +2,14 @@ package com.example.tigers;
 
 public abstract class Shape {
 
-    String colour = "Maroon";
+    String colour = "periwinkle";
     protected int x;
     protected int y;
 
     public Shape(int x, int y) {
         this.x = x;
         this.y = y;
+        this.colour = colour;
     }
 
     public int getX() { return x; }
