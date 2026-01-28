@@ -9,6 +9,8 @@ public abstract class Shape {
         this.y = y;
     }
 
+    String color = "fuchsia";
+
     public int getX() { return x; }
     public int getY() { return y; }
 
