@@ -2,7 +2,7 @@ package com.example.tigers;
 
 public abstract class Shape {
 
-    String colour = "lavender";
+    String colour = "Maroon";
     protected int x;
     protected int y;
 
